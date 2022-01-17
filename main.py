@@ -23,7 +23,7 @@ font_style = pygame.font.SysFont("bahnschrift", 25)
 score_font = pygame.font.SysFont("comicsansms", 35)
 
 def your_score(score):
-    value = score_font.render("Your Screen: " + str(score),True, green)
+    value = score_font.render("Your Score: " + str(score),True, green)
     dis.blit(value, [0,0])
 
 def our_snake(snake_size, snake_list):
